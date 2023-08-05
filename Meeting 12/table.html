@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid blue;
+        margin: 10px;
+        border-collapse: collapse;
+        text-align: center;
+        vertical-align: center;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      th {
+        height: 70px;
+      }
+
+      tr:hover {
+        background-color: #bcbcbd;
+      }
+      tr:nth-child(even) {
+        background-color: #bcbcbd;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Items</th>
+        <th>Color</th>
+      </tr>
+      <tr>
+        <td>Data Pertama</td>
+        <td>Data Kedua</td>
+      </tr>
+    </table>
+
+    <!-- Contoh -->
+    <table>
+      <tr>
+        <th rowspan="2">No</th>
+        <th rowspan="2">Items</th>
+        <th colspan="2">Color</th>
+      </tr>
+      <tr>
+        <td>Main Color</td>
+        <td>Secondary Color</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Gaming Keyboard</td>
+        <td>Black</td>
+        <td>Blue</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Gaming Chair</td>
+        <td>White</td>
+        <td>Black</td>
+      </tr>
+    </table>
+
+    <section>
+      <div class="menu">
+        <h3>Best Seller</h3>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0090/4799/8500/collections/bouquet-583663.jpg?v=1634800091"
+          alt="Best Seller"
+          width="350"
+        />
+      </div>
+    </section>
+  </body>
+</html>

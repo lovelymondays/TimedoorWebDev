@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+.item {
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+}

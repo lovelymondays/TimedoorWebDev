@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+}
+
+/* body {
+  background-image: url("https://o-cdf.sirclocdn.com/unsafe/o-cdn-cas.sirclocdn.com/parenting/images/filosofi-bunga-mawar.width-800.format-webp.webp");
+  background-size: cover;
+} */
+
+section.cover {
+  background-image: url("https://o-cdf.sirclocdn.com/unsafe/o-cdn-cas.sirclocdn.com/parenting/images/filosofi-bunga-mawar.width-800.format-webp.webp");
+  background-size: cover;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+.item {
+  margin: 10px;
+  background-color: gainsboro;
+}
+
+table {
+  width: 100%;
+}
+
+h3,
+p {
+  text-align: center;
+  padding: 5px;
+  color: steelblue;
+}
